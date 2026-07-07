@@ -8,6 +8,7 @@ export function MainPage() {
 
     return (
         <div>
+            <h1>Main page</h1>
             <div 
             className={styles.container}
             // style={ {display: 'flex', gap: '30px'} }
