@@ -1,0 +1,46 @@
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.task-unit {
+    border: 2px solid black;
+    padding: 20px;
+    width: 350px;
+}
+
+.task-unit:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.priority-0 {
+    background-color: #ffffff;
+}
+
+.priority-1 {
+    background-color: #ffd7b5;
+}
+
+.priority-2 {
+    background-color: #ffb38a;
+}
+
+.priority-3 {
+    background-color: #ff9248;
+}
+
+.priority-4 {
+    background-color: #ff6700;
+}
+
+.active-border {
+    border-color: blue;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
